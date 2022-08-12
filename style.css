@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
 html {
@@ -24,7 +25,6 @@ article {
     width: 100%;
     margin: auto;
     margin-top: 8rem;
-    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -37,7 +37,6 @@ article {
     padding: 1rem;
     border: solid 1px rgb(225, 225, 225);
     background-color: #fff;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +44,6 @@ article {
 }
 .login-form {
     max-width: 80%;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,17 +59,16 @@ article {
     margin-bottom: 1rem;
     padding: 1rem 0;
     border: solid 1px rgb(225, 225, 225);
-    border-radius: 2px;
+    border-radius: 4px;
 }
-
 .login .form #entrar {
     width: 100%;
-    padding: 0.8rem 0 0.8rem 0.8rem;
+    padding: 1rem 0;
     background-color: #0095f6;
     border: solid 1px rgb(225, 225, 225);
     color: #fff;
     font-size: 1.6rem;
-    font-weight: 800;
+    font-weight: 700;
     border-radius: 5px;
 }
 
@@ -91,10 +88,16 @@ article {
 .login .entrar-com a {
     margin-left: 0.5rem;
     color: #3B5998;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 600;
     font-stretch: ultra-condensed;
     text-decoration: none;
+}
+
+.entrar-com img{
+
+    width: 18px;
+
 }
 
 .login .esqueceu-senha{
@@ -125,8 +128,9 @@ article {
 
 .cadastro a {
     color: #0095f6;
-    font-weight: 800;
+    font-weight: 600;
     text-decoration: none;
+    margin-left: 3px;
 }
 
 .obtenha-app {
